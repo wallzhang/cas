@@ -15,12 +15,11 @@
 
 在pom.xml文件下引人下面jar包
 		<!-- https://mvnrepository.com/artifact/org.jasig.cas.client/cas-client-core -->
-		<dependency>
+	<dependency>
 			<groupId>org.jasig.cas.client</groupId>
 			<artifactId>cas-client-core</artifactId>
 			<version>3.2.1</version>
-		</dependency>
-	</dependencies>
+	</dependency>
   
 在web.xml文件下添加下面的cas拦截器
 
